@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: $fontPrimary;
 }
 button {
   font-family: inherit;
@@ -23,8 +23,7 @@ button {
   padding-right: 15px;
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @extend %section;
 }
 .section-title {
   margin-bottom: 50px;

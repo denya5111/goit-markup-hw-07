@@ -1,6 +1,5 @@
 .clients__list {
-  display: flex;
-  justify-content: center;
+  @include flexCenter();
   gap: 30px;
 }
 .clients__item {
@@ -8,11 +7,11 @@
   height: 92px;
 }
 .clients__link {
+  @include flexCenter;
+
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
