@@ -25,7 +25,7 @@ button {
 .section {
   @extend %section;
 }
-.section-title {
+.section__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -35,6 +35,6 @@ button {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-.section-list .title {
+.section__list .title {
   margin-bottom: 10px;
 }

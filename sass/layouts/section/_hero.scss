@@ -5,18 +5,15 @@
   max-width: 1600px;
   text-align: center;
   background-color: #c4c4c4;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/header-bg-img.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/header-bg-img.jpg');
   background-position: center;
   background-size: cover;
 }
-.hero-container {
+.hero__container {
   max-width: 696px;
 }
-.hero-title {
+.hero__title {
   margin-bottom: 32px;
 
   font-weight: 900;
@@ -26,7 +23,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.hero-button {
+.hero__button {
   padding: 10px 32px;
 
   color: #ffffff;

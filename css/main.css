@@ -75,7 +75,7 @@ button {
   padding-right: 15px;
 }
 
-.section-title {
+.section__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -85,7 +85,7 @@ button {
   color: var(--title-text-color);
 }
 
-.section-list .title {
+.section__list .title {
   margin-bottom: 10px;
 }
 
@@ -191,11 +191,11 @@ header {
   background-size: cover;
 }
 
-.hero-container {
+.hero__container {
   max-width: 696px;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 32px;
   font-weight: 900;
   font-size: 44px;
@@ -205,7 +205,7 @@ header {
   color: #ffffff;
 }
 
-.hero-button {
+.hero__button {
   padding: 10px 32px;
   color: #ffffff;
   font-weight: 700;
@@ -216,16 +216,16 @@ header {
   background-color: var(--accent-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-button:hover, .hero-button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: #188ce8;
 }
 
-.peculiarities .section-list {
+.peculiarities__list {
   display: flex;
   gap: 30px;
 }
 
-.peculiarities-icon-container {
+.peculiarities__icon-container {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -235,11 +235,11 @@ header {
   margin-bottom: 30px;
 }
 
-.peculiarities-item {
+.peculiarities__item {
   width: calc((100% - 90px) / 4);
 }
 
-.peculiarities .title {
+.peculiarities__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428;
@@ -248,7 +248,7 @@ header {
   color: var(--title-text-color);
 }
 
-.peculiarities .text {
+.peculiarities__text {
   font-size: 14px;
   line-height: 1.7142;
   letter-spacing: 0.03em;
@@ -288,7 +288,7 @@ header {
   background-color: #f5f4fa;
 }
 
-.team .section-list {
+.team .section__list {
   display: flex;
   gap: 30px;
 }
@@ -535,25 +535,25 @@ footer .logo {
   fill: #ffffff;
 }
 
-.portfolio-list {
+.portfolio__list {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
 }
 
-.portfolio .button {
+.portfolio__button {
   padding: 6px 22px;
   min-width: 73px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio .button:hover, .portfolio .button:focus {
+.portfolio__button:hover, .portfolio__button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio .title {
+.portfolio__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -562,31 +562,31 @@ footer .logo {
   color: var(--title-text-color);
 }
 
-.section-list.portfolio {
+.portfolio__list {
   flex-wrap: wrap;
   display: flex;
   gap: 30px;
 }
 
-.portfolio-item {
+.portfolio__item {
   width: calc((100% - 60px) / 3);
 }
 
-.portfolio-link {
+.portfolio__link {
   display: block;
   color: inherit;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover, .portfolio-link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-link-img {
+.portfolio__img {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-link-hover {
+.portfolio__description {
   position: absolute;
   top: 100%;
   left: 0;
@@ -602,11 +602,11 @@ footer .logo {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.portfolio-link:hover .portfolio-link-hover, .portfolio-link:focus .portfolio-link-hover {
+.portfolio__link:hover .portfolio__description, .portfolio__link:focus .portfolio__description {
   transform: translateY(-100%);
 }
 
-.portfolio-item-about {
+.portfolio__project {
   background: #ffffff;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -614,7 +614,7 @@ footer .logo {
   padding: 20px 24px;
 }
 
-.portfolio .text {
+.portfolio__text {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
